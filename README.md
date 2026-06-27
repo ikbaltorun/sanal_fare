@@ -23,17 +23,14 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 
 **1. Proje Dosyalarını İndirin: ** 
 Terminalinizi (komut satırını) açın ve kodları bilgisayarınıza çekmek için şu komutu çalıştırın:
-```bash
 git clone [https://github.com/ikbaltorun/sanal_fare.git](https://github.com/ikbaltorun/sanal_fare.git)
 
 **2. Gerekli Kütüphaneleri Kurun: **
 Projenin çalışması için ihtiyaç duyulan Python modüllerini sanal ortamınıza (venv) yüklemek için şu komutu çalıştırın:
-```bash
 pip install opencv-python mediapipe pyautogui
 
 **3. Sistemi Başlatın: **
 Sanal fare uygulamasını aktif hale getirmek ve kamerayı açmak için şu komutu çalıştırın:
-```bash
 python sanal_fare.py
 
 Not: İlk çalıştırmada yapay zeka modeli otomatik olarak indirileceği için uygulamanın açılması 10-15 saniye sürebilir. Çıkış yapmak için kamera penceresi aktifken klavyeden q tuşuna basmanız yeterlidir.
