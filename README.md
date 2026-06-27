@@ -22,7 +22,7 @@ Sistem, Google'ın yeni nesil **MediaPipe Tasks API** mimarisini kullanarak el e
 Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
 1. Projeyi bilgisayarınıza klonlayın:
-   git clone [https://github.com/ikbaltorun/sanal_fare.git](https://github.com/KULLANICI_ADIN/sanal_fare.git)
+   git clone [https://github.com/ikbaltorun/sanal_fare.git]((https://github.com/ikbaltorun/sanal_fare))
    
 2. Gerekli kütüphaneleri sanal ortamınıza (venv) kurun:
    pip install opencv-python mediapipe pyautogui
