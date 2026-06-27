@@ -21,13 +21,16 @@ Sistem, Google'ın yeni nesil **MediaPipe Tasks API** mimarisini kullanarak el e
 
 Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-1. Projeyi bilgisayarınıza klonlayın:
-   git clone [https://github.com/ikbaltorun/sanal_fare.git]((https://github.com/ikbaltorun/sanal_fare))
-   
-2. Gerekli kütüphaneleri sanal ortamınıza (venv) kurun:
-   pip install opencv-python mediapipe pyautogui
+**1. Proje Dosyalarını İndirin**
+Terminalinizi (komut satırını) açın ve kodları bilgisayarınıza çekmek için şu komutu çalıştırın:
+git clone [https://github.com/ikbaltorun/sanal_fare.git](https://github.com/ikbaltorun/sanal_fare.git)
 
-3. Python dosyasını çalıştırın:
-   python sanal_fare.py
+**2. Gerekli Kütüphaneleri Kurun**
+Projenin çalışması için ihtiyaç duyulan Python modüllerini sanal ortamınıza (venv) yüklemek için şu komutu çalıştırın:
+pip install opencv-python mediapipe pyautogui
+
+**3. Sistemi Başlatın**
+Sanal fare uygulamasını aktif hale getirmek ve kamerayı açmak için şu komutu çalıştırın:
+python sanal_fare.py
 
 Not: İlk çalıştırmada yapay zeka modeli otomatik olarak indirileceği için uygulamanın açılması 10-15 saniye sürebilir. Çıkış yapmak için kamera penceresi aktifken klavyeden q tuşuna basmanız yeterlidir.
