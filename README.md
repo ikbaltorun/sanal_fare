@@ -24,7 +24,7 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 **1. Proje Dosyalarını İndirin:** 
 Terminalinizi (komut satırını) açın ve kodları bilgisayarınıza çekmek için şu komutu çalıştırın:
 ```bash
-git clone [https://github.com/ikbaltorun/sanal_fare.git](https://github.com/ikbaltorun/sanal_fare.git)
+git clone https://github.com/ikbaltorun/sanal_fare.git
 ```
 
 **2. Gerekli Kütüphaneleri Kurun:**
